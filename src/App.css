@@ -1,0 +1,45 @@
+body {
+  background-color: #555555!important;
+  color: #000000 !important;
+
+}
+.card {
+  margin: 10px;
+  padding: 10px !important;
+  border: 0.5px #000000 !important;
+  border-radius: 8px !important;
+  background-color: #000000 !important;
+  max-width: 600px !important; /* Smaller maximum width */
+  
+}
+
+.container {
+  max-width: 400px; /* Set a maximum width for the container */
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px; /* Add some spacing between form groups */
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+}
+
+.form-label {
+  font-weight: bolder; /* Make form labels bold */
+  font-style:oblique;
+  margin-right: 550px ;
+}
+
+.form-control{
+  max-width: 600px; 
+}
+
+.button-container {
+  margin-top: 10px; /* Add space above the button */
+  background-color: #000000 !important;
+  border-color: aliceblue !important;
+  border-radius: 8px !important;
+  margin-left: 750px;
+}
